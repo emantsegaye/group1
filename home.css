@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.side_bar{ 
+    background-color: rgb(223, 218, 209);
+    margin-top: -2px;
+    width: 215px;
+    height: 650px;
+    
+}
+.side_bar ul li{
+    padding-top: 70px;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 10px;
+
+    }
+.side_bar ul li a{
+    text-decoration: none;
+    color: black;   
+    font-weight: bold; 
+    padding-left: 10px;
+}
+.header_page .div1{
+    background-image: url('header.jpg');
+   background-size: cover;
+/*background-color: black;*/
+height: 300px;
+}
+
+@media only screen and (max-width:719px){
+  
+    .header_page .div1{  
+        max-width:720px ;
+   
+        }
+   .main_content img{
+    
+    max-width: 388px;
+           }
+       
+}
+@media only screen and (max-width:960px){
+  
+    .header_page .div1{  
+    max-width:960px ;
+           }
+           .main_content img{
+     
+            max-width: 960px;
+                   }
+}
+
+@media only screen and (min-width:961px){
+  
+    .header_page .div1{  
+    max-width:100% ;
+
+    }
+   .main_content img{
+    
+    max-width: 100%;
+           }
+       
+}
+
+
+H1{
+    padding-top: 40PX;
+    text-align: center;
+    font-size: 25PX;
+    color: black;
+}
+p{
+    text-align: center;
+    color: black;
+} 
+.main_content{
+    position: absolute;
+    top: 298px;
+    left: 210px;
+    background-image: url(.vscode/hh/portfolio-3.jpg);
+    background-size: cover;
+    height: 650px;
+    width: 1048px;
+   
+}
+.main_content img{
+margin-top: -52px;
+width: 1140px;
+}
+.div1 img{
+    margin-top: 7px;
+    background-color: azure;
+    border-radius: 150px;
+    margin-left: 38%;
+}
+
+
+.side_bar ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+ 
+.active a{
+    background-color: black;
+     color: white;
+    padding: 10px;
+    transition: 0.5s;
+     
+}
+.mainh{
+    padding-right:240px;
+}
+.main_content .mainh button{
+    
+        height: 40px;
+        width: 150px;
+        border-color: silver;
+        border-radius: 15px;
+       
+}
+.back,.exp{
+    border: 1px solid;
+  width: 250px;
+  border-style: none;
+}
+.exp span,.back span{
+    margin-left: 85px;
+    font-size: 22px;
+    
+}
+
+.exp ul li{
+    
+    list-style: none;
+}
+.exp ul{
+    text-align: center;
+}
+.whole{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}

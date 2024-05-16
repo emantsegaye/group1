@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.side_bar{ 
+    background-color: rgb(223, 218, 209);
+    margin-top: 0px;
+    width: 215px;
+    height: 650px;
+    border-radius: 0px 20px 20px 0;
+}
+.side_bar ul li{
+padding-top: 70px;
+font-size: 20px;
+list-style: none;
+margin-left: 10px;
+}
+.side_bar ul li a{
+    text-decoration: none;
+    color: black;   
+    font-weight: bold; 
+    padding-left: 10px;
+}
+
+.header_page .div1{
+    background-image: url('header.jpg');
+   background-size: cover;
+/*background-color: black;*/
+height: 300px;
+}
+
+@media only screen and (max-width:719px){
+  
+    .header_page .div1{  
+        max-width:720px ;
+   
+        }
+   .main_content img{
+    
+    max-width: 388px;
+           }
+       
+}
+@media only screen and (max-width:960px){
+  
+    .header_page .div1{  
+    max-width:960px ;
+           }
+           .main_content img{
+     
+            max-width: 960px;
+                   }
+}
+
+@media only screen and (min-width:961px){
+  
+    .header_page .div1{  
+    max-width:100% ;
+
+    }
+   .main_content img{
+    
+    max-width: 100%;
+           }
+       
+}
+
+
+H1{
+    padding-top: 40PX;
+    text-align: center;
+    font-size: 25PX;
+    color: white;
+}
+.testh{
+    color: black;
+}
+p{
+    text-align: center;
+    color: white;
+} 
+.main_content{
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+.main_content img{
+margin-top: -52px;
+width: 1140px;
+}
+.div1 img{
+    margin-top: 35px;
+    background-color: azure;
+    border-radius: 75px;
+    margin-left: 45%;
+}
+
+
+.side_bar ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+    
+}
+ 
+.active a{
+    background-color: black;
+     color: white;
+    padding: 10px;
+    transition: 0.5s;
+  
+     
+}
+  .me{
+    position: absolute;
+    top: 340px;
+    left: 259px;
+    background-color:rgb(216, 214, 214);
+    width: 900px;
+    height: 600px;
+    border-radius: 20px;
+   
+  } 
+
+    .me div img{
+        width: 80px;
+        border-radius: 40px;
+    }
+    .clint1, .clint2{
+        margin-top: 20px;
+        display:grid;
+        grid-template-columns: 100px 600px;
+        margin-left: 20px;
+        border: 1px solid gray;
+        padding: 20px 0px;
+        margin-top: 20px;
+        border: 1px solid gray;
+         
+    }
+    

@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.side_bar{ 
+    background-color:rgb(223, 218, 209);
+    margin-top: 0px;
+    width: 215px;
+    height: 650px;
+    border-radius: 0px 20px 20px 0;
+}.side_bar ul li{
+    padding-top: 70px;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 10px;
+    }
+.side_bar ul li a{
+    text-decoration: none;
+    color: black;   
+    font-weight: bold; 
+    padding-left: 10px;
+}
+
+.header_page .div1{
+    background-image: url('header.jpg');
+   background-size: cover;
+/*background-color: black;*/
+height: 300px;
+}
+
+
+
+H1{
+    padding-top: 40PX;
+    text-align: center;
+    font-size: 25PX;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+} 
+.main_content{
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+.main_content img{
+margin-top: -52px;
+width: 1140px;
+}
+.div1 img{
+    margin-top: 35px;
+    background-color: azure;
+    border-radius: 75px;
+    margin-left: 45%;
+}
+
+
+.side_bar ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+ 
+.active a{
+    background-color: black;
+     color: white;
+    padding: 10px;
+    transition: 0.5s;
+     
+}
+.form{
+    text-align: center;
+    background-color: rgb(216, 214, 214);
+    border-radius: 20px;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    top: 350px;
+    left: 259px;
+
+}
+.form button, .set{
+    margin-top: 20px;
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    
+}
+.form button:hover, .set:hover{
+font-size: 20px;
+box-shadow: 5px 5px 10px gray;
+transition: 0.5s;
+}
+.form input{
+    width: 250px;
+    height: 35px;
+    
+}
+.form .subject{
+    width: 550px;
+}
+h2{
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.location{
+    
+    text-align: center;
+}
+.location p{
+    color: black;
+    margin-bottom: 10px;
+}
+.location p img{
+    height: 15px;
+    margin-right: 3px;
+}
+
+@media only screen and (max-width:719px){
+    .form{
+        text-align: left;
+        background-color: rgb(216, 214, 214);
+        border-radius: 20px;
+        width: 719px;
+        height: 600px;
+        position: absolute;
+        top: 350px;
+        left: 240px;
+    
+    }
+    .location{
+    
+        text-align: left;
+    }
+    .header_page .div1{  
+        max-width:720px ;
+   
+        }
+   .main_content img{
+    
+    max-width: 388px;
+           }
+       
+}
+@media only screen and (max-width:960px){
+  
+    .header_page .div1{  
+    max-width:960px ;
+           }
+           .main_content img{
+     
+            max-width: 960px;
+                   }
+}
+
+@media only screen and (min-width:961px){
+  
+    .header_page .div1{  
+    max-width:100% ;
+
+    }
+   .main_content img{
+    
+    max-width: 100%;
+           }
+       
+}
